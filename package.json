@@ -1,0 +1,16 @@
+{
+  "name": "webpack2-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/js/app.js dist/bundle.js",
+    "build:prod": "webpack src/js/app.js dist/bundle.js -p"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
