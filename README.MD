@@ -3,7 +3,7 @@ This repo is an update to:
 
     https://github.com/mschwarzmueller/yt-webpack2-basics
 
-It's the source code that accompanies the Youtube tutorial at:
+The above repo is the source code that accompanies the Youtube tutorial at:
 
     https://www.youtube.com/watch?v=GU-2T7k9NfI
 
