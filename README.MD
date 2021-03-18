@@ -31,7 +31,7 @@ The command installs webpack in the nodemodules folder and adds it as a dependen
 
     "build": "webpack --mode development --entry ./src/js/app.js --output-path ./dist"
   
-The command defines the entry file and the output directory where weppack should place the compiled code. The entry file is where webpack starts its compilation process. From the entry file it follows any import statements to find any other files that are associated with the entry file. It compiles all those files into a single bundled file.  The output path is where webpack will place the single bundled file. a file titled "main.js" once the build is finished
+The command defines the entry file and the output directory where weppack should place the compiled code. The entry file is where webpack starts its compilation process. From the entry file it follows any import statements to find any other files that are associated with the entry file. It compiles all those files into a single bundled file.  The output path is where webpack will place the single bundled file. (it will be titled "main.js")
 
 # In src/app.js add:
 
@@ -45,7 +45,7 @@ The command defines the entry file and the output directory where weppack should
 
 Since we've defined the entrypoint as app.js we have to add the import and export code so that webpack knows that app.js and dom-loader.js should be bundled together.  The above code does that
 
-# Not lets have webpack compile the javascript:
+# Now lets have webpack compile the javascript:
 
     npm run build
 
