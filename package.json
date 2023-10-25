@@ -1,0 +1,16 @@
+{
+  "name": "yt-webpack2-basics-01-starting-app",
+  "version": "1.0.0",
+  "description": "My demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development --entry ./src/js/app.js --output-path ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
+  }
+}
